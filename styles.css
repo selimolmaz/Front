@@ -1,0 +1,62 @@
+.person-container {
+    width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 10px;
+  }
+  .person {
+    width: 250px; /* Genişlik sabit */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+    position: relative;
+    transition: max-height 0.3s;
+  }
+  
+  .add-person-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .add-task-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .remove-person-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .remove-task-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .task {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #000;
+  }
